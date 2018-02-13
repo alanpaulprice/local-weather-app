@@ -1,0 +1,20 @@
+* {
+  color: #FFF;
+  font-family: 'Baloo', cursive;
+}
+
+body, .jumbotron {
+  background-color: #000;
+}
+
+.row {
+  padding-top: 30px;
+}
+
+#allF {
+  display: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

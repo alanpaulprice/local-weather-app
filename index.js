@@ -4,7 +4,7 @@ $.ajaxSetup ({
 });
 
 $(document).ready(function() {
-  
+
 // ========== LOCATION ==========
 
   // https://forum.freecodecamp.com/t/how-to-get-info-after-using-json-stringify-with-an-api/23118/5
@@ -34,10 +34,10 @@ $(document).ready(function() {
     $("#allC").css("display", "none");
     $("#allF").css("display", "block");
   });
-  
+
   $("#tempUnitF").on("click", function () {
     $("#allF").css("display", "none");
     $("#allC").css("display", "block");
   });
-  
+
 }); //doc ready

@@ -5,54 +5,35 @@
   <meta charset="UTF-8">
   <title>Local Weather App</title>
   <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <!-- ------------------ -->
+  <div class="container-fluid">
+    <div class="jumbotron text-center">
+      <h1>Your Local Weather</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <h1 id="location"></h1>
+        <h1>
+          <span id="allC"><span id="tempValC"></span>&nbsp;&deg;<a id="tempUnitC">C</a></span>
+          <span id="allF"><span id="tempValF"></span>&nbsp;&deg;<a id="tempUnitF">F</a></span>
+        </h1>
 
-  <!-- JSON display spans
-<span class="message"></span>
-<br><br>
-<span class="message2"></span>
-<br><br>
-<!-- ------------------ -->
-<div class="container-fluid">
-  <div class="jumbotron text-center">
-    <h1>Free C<i class="fa fa-cloud"></i>de Camp<br>Local Weather App</h1>
-  </div>
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3 text-center">
-      <h1 id="location"></h1>
-      <h1>
-        <span id="allC"><span id="tempValC"></span>&nbsp;&deg;<a id="tempUnitC">C</a></span>
-        <span id="allF"><span id="tempValF"></span>&nbsp;&deg;<a id="tempUnitF">F</a></span>
-      </h1>
-
-
-      <br>
-      <img id="weather">
-      <h3 id="desc"></h3>
-    </div> <!-- col-md-6 -->
-  </div> <!-- row -->
-</div> <!-- container -->
+        <br>
+        <img id="weather">
+        <h3 id="desc"></h3>
+      </div> <!-- col-md-6 -->
+    </div> <!-- row -->
+  </div> <!-- container -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
+  <script  src="index.js"></script>
 </body>
 
 </html>
